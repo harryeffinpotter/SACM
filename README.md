@@ -17,7 +17,9 @@ https://github.com/oureveryday/Steam-auto-crack
  * https://curl.se/
 
 ## Build 
- * Windows: Run `build\build.bat` 
+ * Windows: 
+ - Set version number in `\src\Ver.txt`
+ - Run `build\build.bat` 
  
 ## Bugs 
 For bugs please report in issues. 
