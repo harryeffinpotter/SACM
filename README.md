@@ -24,8 +24,13 @@ For bugs please report in issues.
 
 ## Instructions:
 1 - Copy game you wish to crack's folder out of `C:\Program Files(x86)\Steam\Steamapps\Common\` to a folder not containined within Program Files(x86)(such as Desktop, Downloads, another drive, anywhere you want) - this step is required to avooid permissions issues.
+
 2 - Run SACM exe.
+
 3 - Select copied folder from step 1.
+
 4 - Locate the correctly matching app on the list shown in SteamAPPID.exe, for instance select MainGame instead of MainGame (Soundtrack).
+
 5 - Either click the green row header for the correct app or simply double click the correct choice. This will automatically copy and paste the APPID number into the SACM script.
+
 6 - Sit back while SACM does the rest! Enjoy!
