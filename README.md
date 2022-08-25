@@ -1,19 +1,13 @@
-# Steam Game Automatic Cracker 
-
-Automatic crack games with SteamStub and Steam API. 
-All files are written by batch file. 
-
- * Github: https://github.com/oureveryday/Steam-auto-crack 
- * Gitlab: https://gitlab.com/oureveryday/Steam-auto-crack 
+# Steam Auto Crack MOD
+ 
+Based on the Steam-auto-crack repo:
+https://github.com/oureveryday/Steam-auto-crack 
 
 ## Functions 
 
- * Fully automatic crack Steam DRM Only Game. 
- * Automatic unpack SteamStub packed exe and backup. 
- * Automatic Apply Goldberg Steam Emulator. 
- * Automatic Update Goldberg Steam Emulator. 
- * Automatic Generate Crack Only File and pack with zip format. 
- * Automatic Restore Crack. 
+ * Removed questions that only serve to confuse newbies.
+ * Integrated my SteamAPPID finder(repo: https://github.com/harryeffinpotter/SteamAPPIDFinder) to make entire process more streamlined.
+ * Removed most of the unnecessary messaging.
 
 ## Dependies 
  * https://github.com/oureveryday/Goldberg-generate_game_info 
@@ -25,11 +19,13 @@ All files are written by batch file.
 ## Build 
  * Windows: Run `build\build.bat` 
  
-## Usage 
- * Download all files and run "SteamAutoCrack.bat" or run build "SteamAutoCrack.exe". 
- * Use Option 1 to Automatic Crack Game. 
-
 ## Bugs 
 For bugs please report in issues. 
 
-Please Make Sure Tool Folder DO NOT have NON-English character and Without SPACE to Avoid Problems.
+## Instructions:
+1 - Copy game you wish to crack's folder out of `C:\Program Files(x86)\Steam\Steamapps\Common\` to a folder not containined within Program Files(x86)(such as Desktop, Downloads, another drive, anywhere you want) - this step is required to avooid permissions issues.
+2 - Run SACM exe.
+3 - Select copied folder from step 1.
+4 - Locate the correctly matching app on the list shown in SteamAPPID.exe, for instance select MainGame instead of MainGame (Soundtrack).
+5 - Either click the green row header for the correct app or simply double click the correct choice. This will automatically copy and paste the APPID number into the SACM script.
+6 - Sit back while SACM does the rest! Enjoy!
